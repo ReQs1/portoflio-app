@@ -37,7 +37,7 @@ const MobileUl = styled.ul`
       transition: color 0.2s ease;
 
       &:hover {
-        color: #ff6b6b;
+        color: var(--hover-color);
       }
     }
   }
@@ -85,6 +85,7 @@ function MobileNav({ setIsOpen }: Props) {
       <CloseBtn onClick={() => setIsOpen(false)}>
         <AiOutlineClose />
       </CloseBtn>
+
       <MobileUl>
         {links.map((link) => (
           <li key={link} onClick={() => setIsOpen(false)}>

@@ -41,7 +41,7 @@ const StyledUl = styled.ul`
     transition: color 0.2s ease;
 
     &:hover {
-      color: #ff6b6b;
+      color: var(--hover-color);
     }
   }
 
@@ -79,7 +79,7 @@ function NavBar() {
   return (
     <>
       <StyledNav>
-        <H3>Szymon.dev</H3>
+        <H3>foo</H3>
 
         <StyledUl>
           {links.map((link) => (
