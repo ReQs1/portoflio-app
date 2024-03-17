@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
 
 * {
   margin: 0;
+  padding: 0;
   scrollbar-color: #8e8e8e #fff;
   scrollbar-width: thin;
 }
