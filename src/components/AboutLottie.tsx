@@ -10,7 +10,7 @@ function AboutLottie() {
     <Lottie
       animationData={LottieAnimation}
       lottieRef={LottieRef}
-      style={{ maxWidth: "20rem", aspectRatio: 1 }}
+      style={{ maxWidth: "25rem", aspectRatio: 1 }}
     />
   );
 }

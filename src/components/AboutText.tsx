@@ -15,6 +15,7 @@ const TextDiv = styled.div`
     }
 
     @media screen and (min-width: 1200px) {
+      font-size: 1.1rem;
       &:not(:last-child) {
         margin-bottom: 2.5rem;
       }
