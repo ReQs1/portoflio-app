@@ -37,7 +37,7 @@ const MobileUl = styled.ul`
       transition: color 0.2s ease;
 
       &:hover {
-        color: var(--hover-color);
+        color: var(--primary-accent);
       }
     }
   }
@@ -89,7 +89,7 @@ function MobileNav({ setIsOpen }: Props) {
       <MobileUl>
         {links.map((link) => (
           <li key={link} onClick={() => setIsOpen(false)}>
-            <a href={`#`}>{link}</a>
+            <a href={`#${link}`}>{link}</a>
           </li>
         ))}
       </MobileUl>

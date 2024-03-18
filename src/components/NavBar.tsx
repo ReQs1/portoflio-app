@@ -21,7 +21,7 @@ const StyledNav = styled.nav`
 
 const H3 = styled.h3`
   font-size: 1.2rem;
-  color: #303235;
+  color: var(--heading-color);
   cursor: pointer;
 `;
 
@@ -41,7 +41,7 @@ const StyledUl = styled.ul`
     transition: color 0.2s ease;
 
     &:hover {
-      color: var(--hover-color);
+      color: var(--primary-accent);
     }
   }
 
@@ -84,7 +84,7 @@ function NavBar() {
         <StyledUl>
           {links.map((link) => (
             <li key={link}>
-              <a href={`#`}>{link}</a>
+              <a href={`#${link}`}>{link}</a>
             </li>
           ))}
         </StyledUl>

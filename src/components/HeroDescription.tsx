@@ -10,13 +10,13 @@ const DescriptionDiv = styled.div`
     font-size: 2.5rem;
     line-height: 1.2;
     font-weight: bold;
-    color: #222020;
+    color: var(--heading-color);
     margin-bottom: 1.4rem;
   }
 
   & p {
     font-size: 1rem;
-    color: #4b4b4b;
+    color: var(--primary-paragraph);
     letter-spacing: 0.5px;
     margin-bottom: 1.5rem;
     line-height: 1.8;
@@ -58,7 +58,7 @@ const LinksDiv = styled.div`
     transition: color 0.3s ease;
 
     &:hover {
-      color: var(--hover-color);
+      color: var(--primary-accent);
     }
   }
 

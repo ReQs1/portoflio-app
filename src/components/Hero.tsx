@@ -6,6 +6,7 @@ import HeroSkills from "./HeroSkills";
 
 const StyledSection = styled.section`
   padding: 7.5rem 2rem 3rem 2rem;
+  /* margin-bottom: 3rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +26,7 @@ const StyledSection = styled.section`
 
 function Hero() {
   return (
-    <StyledSection>
+    <StyledSection id="Home">
       <HeroDescription />
 
       <HeroImage />

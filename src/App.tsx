@@ -1,6 +1,7 @@
 import GlobalStyle from "./styles/globalStyles";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
+import About from "./components/About";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
 
       <main>
         <Hero />
+        <About />
       </main>
     </>
   );

@@ -4,7 +4,9 @@ const GlobalStyle = createGlobalStyle`
 
 :root {
   --section-bg: #f3f4f6;
-  --hover-color: #8b5cf6
+  --heading-color: #222020;
+  --primary-accent: #7c3aed;
+  --primary-paragraph: #4b4b4b;
 }
 
 *,
@@ -20,11 +22,15 @@ const GlobalStyle = createGlobalStyle`
   scrollbar-width: thin;
 }
 
+html {
+  scroll-behavior: smooth;
+
+}
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 img,
