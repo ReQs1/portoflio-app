@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 
 const SkillsDiv = styled.div`
@@ -8,11 +9,11 @@ const SkillsDiv = styled.div`
   align-items: center;
 
   & h3 {
-    width: fit-content;
-    font-size: 1.1rem;
+    white-space: nowrap;
+    font-size: 1rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     border-bottom: 2px solid black;
   }
 
@@ -26,7 +27,7 @@ const SkillsDiv = styled.div`
       padding-bottom: 0;
       border-bottom: none;
 
-      padding-right: 2rem;
+      padding-right: 1.5rem;
       margin-right: 2rem;
       border-right: 2px solid black;
     }
@@ -43,9 +44,9 @@ const SkillUl = styled.ul`
   list-style: none;
 
   & li {
-    padding: 0.3rem 0.6rem;
+    padding: 0.3rem 0.8rem;
     background-color: white;
-    border: 2px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 5px;
   }
 `;
@@ -64,15 +65,46 @@ const skills = [
   "Framer Motion",
 ];
 
+const container = {
+  hidden: { opacity: 1, scale: 0 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      delayChildren: 0.3,
+      staggerChildren: 0.2,
+    },
+  },
+};
+
+const item = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+  },
+};
+
+const MotionSkillUl = motion(SkillUl);
+
 function HeroSkills() {
   return (
     <SkillsDiv>
       <h3>My Skills</h3>
-      <SkillUl>
+      <MotionSkillUl
+        variants={container}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{
+          once: true,
+        }}
+      >
         {skills.map((skill, index) => (
-          <li key={index}>{skill}</li>
+          <motion.li key={index} variants={item}>
+            {skill}
+          </motion.li>
         ))}
-      </SkillUl>
+      </MotionSkillUl>
     </SkillsDiv>
   );
 }

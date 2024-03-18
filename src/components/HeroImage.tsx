@@ -6,10 +6,10 @@ const BlobDiv = styled.div`
   height: 20rem;
   border: 4px solid black;
 
-  border-radius: 60% 30% 60% 80%;
+  border-radius: 32% 68% 50% 50% / 26% 73% 27% 74%;
   overflow: hidden;
 
-  animation: blub 8s infinite;
+  animation: blub 6s infinite;
 
   & img {
     width: 100%;

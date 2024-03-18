@@ -3,13 +3,13 @@ import { AiOutlineClose } from "react-icons/ai";
 import { motion } from "framer-motion";
 
 const MobileDiv = styled.div`
-  position: absolute;
+  position: fixed;
   background-color: white;
   top: 0;
   left: 0;
   z-index: 999;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding-top: 3rem;
 
   @media screen and (min-width: 768px) {
