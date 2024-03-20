@@ -8,14 +8,15 @@ const StyledSection = styled.section`
   align-items: center;
   justify-content: center;
   padding: 2.5rem 3rem;
+  background-color: var(--section-bg-neutral);
 
   & h2 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-bottom: 2rem;
     color: var(--primary-accent);
 
     @media screen and (min-width: 1200px) {
-      font-size: 1.6rem;
+      font-size: 1.3rem;
     }
   }
 

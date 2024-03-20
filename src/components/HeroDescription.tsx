@@ -54,7 +54,7 @@ const LinksDiv = styled.div`
 
   & a {
     font-size: 2rem;
-    color: black;
+    color: var(--primary-text);
     transition: color 0.3s ease;
 
     &:hover {
@@ -76,10 +76,18 @@ function HeroDescription() {
         Częstochowa, Poland. 📍
       </p>
       <LinksDiv>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/ReQs1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FiGithub />
         </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/in/szymon-całus-8899982b4/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <CiLinkedin />
         </a>
       </LinksDiv>

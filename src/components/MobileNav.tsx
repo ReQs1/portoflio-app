@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const MobileDiv = styled.div`
   position: fixed;
-  background-color: white;
+  background-color: var(--section-bg-neutral);
   top: 0;
   left: 0;
   z-index: 999;
@@ -33,7 +33,7 @@ const MobileUl = styled.ul`
 
     & a {
       text-decoration: none;
-      color: black;
+      color: var(--primary-text);
       transition: color 0.2s ease;
 
       &:hover {

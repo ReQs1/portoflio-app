@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const BlobDiv = styled.div`
   order: -1;
-  width: 20rem;
+  max-width: 20rem;
   height: 20rem;
   border: 4px solid black;
 
@@ -28,7 +28,7 @@ const BlobDiv = styled.div`
 function HeroImage() {
   return (
     <BlobDiv>
-      <img src="./guzior.png" alt="personal img" loading="lazy" />
+      <img src="./HeroImage.jpg" alt="personal img" loading="lazy" />
     </BlobDiv>
   );
 }

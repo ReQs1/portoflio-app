@@ -8,10 +8,10 @@ import MobileNav from "./MobileNav";
 const StyledNav = styled.nav`
   position: fixed;
   top: 0;
+  z-index: 999;
   width: 100%;
   padding: 1.5rem 3rem;
-  background-color: white;
-
+  background-color: var(--section-bg-neutral);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,7 +36,7 @@ const StyledUl = styled.ul`
   }
 
   & a {
-    color: black;
+    color: var(--primary-text);
     text-decoration: none;
     transition: color 0.2s ease;
 

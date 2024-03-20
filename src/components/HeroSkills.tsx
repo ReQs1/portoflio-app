@@ -21,6 +21,7 @@ const SkillsDiv = styled.div`
     flex-direction: row;
     width: 100%;
     padding: 0 10rem;
+    color: var(--primary-text);
 
     & h3 {
       margin-bottom: 0;
@@ -45,9 +46,17 @@ const SkillUl = styled.ul`
 
   & li {
     padding: 0.3rem 0.8rem;
-    background-color: white;
+    color: var(--primary-text);
+    font-weight: 500;
+    background-color: var(--section-bg-neutral);
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: var(--primary-accent);
+    }
   }
 `;
 

@@ -8,6 +8,7 @@ const TextDiv = styled.div`
   text-align: center;
 
   & p {
+    font-size: 1.1rem;
     max-width: 40rem;
     color: var(--primary-paragraph);
     &:not(:last-child) {
@@ -15,7 +16,7 @@ const TextDiv = styled.div`
     }
 
     @media screen and (min-width: 1200px) {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       &:not(:last-child) {
         margin-bottom: 2.5rem;
       }
@@ -39,7 +40,7 @@ function AboutText() {
         React developer. I thrive on challenges and am eager to contribute to
         innovative projects.
       </p>
-      <p>Let's connect, collaborate, and code together! 🤝</p>
+      <p>Let's chat, team up, and bring some awesome ideas to life! 🚀</p>
     </TextDiv>
   );
 }

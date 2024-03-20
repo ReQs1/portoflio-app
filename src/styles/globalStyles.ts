@@ -4,9 +4,11 @@ const GlobalStyle = createGlobalStyle`
 
 :root {
   --section-bg: #f3f4f6;
+  --section-bg-neutral: white;
   --heading-color: #222020;
-  --primary-accent: #7c3aed;
+  --primary-text: black;
   --primary-paragraph: #4b4b4b;
+  --primary-accent: #7c3aed;
 }
 
 *,
