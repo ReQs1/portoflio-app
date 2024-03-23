@@ -51,12 +51,7 @@ const SkillUl = styled.ul`
     background-color: var(--section-bg-neutral);
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 5px;
-    cursor: pointer;
     transition: color 0.3s ease;
-
-    &:hover {
-      color: var(--primary-accent);
-    }
   }
 `;
 
