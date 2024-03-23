@@ -12,6 +12,12 @@ I'm a passionate learner on a mission to master React. With a year of dedicated 
 - React
 - Git & GitHub
 
+### Currently Learning/Want to learn
+- Next.js
+- Docker
+- PostgreSQL
+- backend (?)
+
 ## Projects 📚
 
 - Tv Show
