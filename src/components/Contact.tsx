@@ -10,6 +10,7 @@ const StyledSection = styled.section`
   flex-direction: column;
   gap: 3rem;
   padding: 2.75rem 0;
+  background-color: var(--section-bg-neutral);
 
   & h2 {
     font-size: 1.1rem;
@@ -25,10 +26,11 @@ const ContactOptions = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  color: var(--primary-text);
 
   @media screen and (min-width: 550px) {
     flex-direction: row;
-    gap: 3rem;
+    gap: 4rem;
   }
 `;
 

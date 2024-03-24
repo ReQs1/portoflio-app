@@ -3,19 +3,32 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
 
 :root {
-  --section-bg: #f3f4f6;
-  --section-bg-neutral: white;
-  --heading-color: #222020;
-  --primary-text: black;
-  --primary-paragraph: #4b4b4b;
-  --primary-accent: #7c3aed;
-  --footer-bg: #27272a;
+  &,&.light-mode {
+    --section-bg: #f3f4f6;
+    --section-bg-neutral: white;
+    --heading-color: #222020;
+    --primary-text: black;
+    --primary-paragraph: #4b4b4b;
+    --primary-accent: #7c3aed;
+    --footer-bg: #27272a;
+  }
+
+  &.dark-mode {
+    --section-bg: #1e1e1e;
+    --section-bg-neutral: #2b2b2b;
+    --heading-color: #f5f5f5;
+    --primary-text: white;
+    --primary-paragraph: #b3b3b3;
+    --primary-accent: #7c3aed;
+    --footer-bg: #1a1a1a;
+  }
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  transition: background-color 0.3s ease;
 }
 
 * {

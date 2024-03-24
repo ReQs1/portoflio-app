@@ -5,21 +5,27 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ThemeBtn from "./components/ThemeBtn";
+import DarkModeProvider from "./context/DarkMoveContext";
 
 function App() {
   return (
     <>
-      <GlobalStyle />
-      <NavBar />
+      <DarkModeProvider>
+        <ThemeBtn />
+        <GlobalStyle />
 
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
-      </main>
+        <NavBar />
 
-      <Footer />
+        <main>
+          <Hero />
+          <About />
+          <Projects />
+          <Contact />
+        </main>
+
+        <Footer />
+      </DarkModeProvider>
     </>
   );
 }

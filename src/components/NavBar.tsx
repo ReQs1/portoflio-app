@@ -13,16 +13,10 @@ const StyledNav = styled.nav`
   padding: 1.5rem 3rem;
   background-color: var(--section-bg-neutral);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
-`;
-
-const H3 = styled.h3`
-  font-size: 1.2rem;
-  color: var(--heading-color);
-  cursor: pointer;
 `;
 
 const StyledUl = styled.ul`
@@ -49,7 +43,7 @@ const StyledUl = styled.ul`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3.25rem;
   }
 `;
 
@@ -79,8 +73,6 @@ function NavBar() {
   return (
     <>
       <StyledNav>
-        <H3>foo</H3>
-
         <StyledUl>
           {links.map((link) => (
             <li key={link}>

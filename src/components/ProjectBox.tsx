@@ -32,6 +32,7 @@ const InfoDiv = styled.div`
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  color: var(--primary-text);
 
   & h3 {
     font-size: 1.3rem;

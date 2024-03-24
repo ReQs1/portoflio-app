@@ -15,6 +15,12 @@ const StyledSection = styled.section`
       font-size: 1.3rem;
     }
   }
+
+  & p {
+    color: var(--primary-paragraph);
+    font-size: 1rem;
+    margin-top: 4rem;
+  }
 `;
 
 function Projects() {
@@ -23,7 +29,7 @@ function Projects() {
       <h2>Projects</h2>
 
       <ProjectsDiv />
-      <p style={{ marginTop: "4rem" }}>Currently working on next.js project</p>
+      <p>Currently working on next.js project</p>
     </StyledSection>
   );
 }
