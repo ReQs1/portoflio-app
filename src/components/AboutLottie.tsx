@@ -4,7 +4,7 @@ import { useRef } from "react";
 
 function AboutLottie() {
   const LottieRef = useRef<LottieRefCurrentProps>(null);
-  LottieRef.current?.setSpeed(0.4);
+  LottieRef.current?.setSpeed(0.35);
 
   return (
     <Lottie
