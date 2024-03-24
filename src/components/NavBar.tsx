@@ -13,10 +13,14 @@ const StyledNav = styled.nav`
   padding: 1.5rem 3rem;
   background-color: var(--section-bg-neutral);
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
 `;
 
 const StyledUl = styled.ul`

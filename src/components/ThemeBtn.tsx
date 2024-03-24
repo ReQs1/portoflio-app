@@ -8,8 +8,9 @@ type ThemeButtonProps = {
 
 const ThemeButton = styled.button<ThemeButtonProps>`
   position: fixed;
-  bottom: 5rem;
-  right: 3.5rem;
+  z-index: 999;
+  bottom: 2rem;
+  right: 2rem;
   width: 2.5rem;
   height: 2.5rem;
   display: flex;
@@ -19,8 +20,13 @@ const ThemeButton = styled.button<ThemeButtonProps>`
   cursor: pointer;
   border-radius: 50%;
   border: none;
-  background: transparent;
+  background: ${(props) => (props.$isDarkMode ? "black" : "white")};
   color: ${(props) => (props.$isDarkMode ? "white" : "black")};
+
+  @media screen and (min-width: 768px) {
+    bottom: 3rem;
+    right: 3.5rem;
+  }
 `;
 
 function ThemeBtn() {
