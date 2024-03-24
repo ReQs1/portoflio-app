@@ -9,18 +9,26 @@ const GlobalStyle = createGlobalStyle`
     --heading-color: #222020;
     --primary-text: black;
     --primary-paragraph: #4b4b4b;
-    --primary-accent: #7c3aed;
+    --primary-accent: #eab308;
     --footer-bg: #27272a;
   }
 
   &.dark-mode {
-    --section-bg: #1e1e1e;
+    /* --section-bg: #1e1e1e;
     --section-bg-neutral: #2b2b2b;
     --heading-color: #f5f5f5;
     --primary-text: white;
     --primary-paragraph: #b3b3b3;
-    --primary-accent: #7c3aed;
-    --footer-bg: #1a1a1a;
+    --primary-accent: #fde047;
+    --footer-bg: #1a1a1a; */
+
+    --section-bg: #1c1c1f; 
+    --section-bg-neutral: #2a2a2e; 
+    --heading-color: #f0f0f0; 
+    --primary-text: #f0f0f0; 
+    --primary-paragraph: #a8a8a8; 
+    --primary-accent: #ffd300; 
+    --footer-bg: #0d0d0f; 
   }
 }
 

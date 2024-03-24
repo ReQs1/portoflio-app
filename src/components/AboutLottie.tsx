@@ -8,6 +8,9 @@ function AboutLottie() {
 
   return (
     <Lottie
+      initialSegment={[0, 113]}
+      onComplete={() => LottieRef.current?.playSegments([22, 113], true)}
+      loop={false}
       animationData={LottieAnimation}
       lottieRef={LottieRef}
       style={{ maxWidth: "25rem", aspectRatio: 1 }}
