@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
   --primary-text: black;
   --primary-paragraph: #4b4b4b;
   --primary-accent: #7c3aed;
+  --footer-bg: #27272a;
 }
 
 *,

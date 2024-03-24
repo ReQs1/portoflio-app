@@ -9,7 +9,7 @@ const StyledSection = styled.section`
   align-items: center;
   flex-direction: column;
   gap: 3rem;
-  padding: 2.5rem 1.2rem;
+  padding: 2.75rem 0;
 
   & h2 {
     font-size: 1.1rem;
@@ -26,15 +26,15 @@ const ContactOptions = styled.div`
   flex-direction: column;
   gap: 1.5rem;
 
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 550px) {
     flex-direction: row;
-    gap: 4rem;
+    gap: 3rem;
   }
 `;
 
 function Contact() {
   return (
-    <StyledSection>
+    <StyledSection id="Contact">
       <h2>Contact</h2>
 
       <ContactOptions>

@@ -1,6 +1,5 @@
-import { CiLinkedin } from "react-icons/ci";
-import { FiGithub } from "react-icons/fi";
 import styled from "styled-components";
+import IconLinks from "./IconLinks";
 
 const DescriptionDiv = styled.div`
   text-align: center;
@@ -46,51 +45,15 @@ const DescriptionDiv = styled.div`
   }
 `;
 
-const LinksDiv = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-
-  & a {
-    font-size: 2rem;
-    color: var(--primary-text);
-    transition: color 0.3s ease;
-
-    &:hover {
-      color: var(--primary-accent);
-    }
-  }
-
-  @media screen and (min-width: 940px) {
-    justify-content: start;
-  }
-`;
-
 function HeroDescription() {
   return (
     <DescriptionDiv>
-      <h1>Front-End React Developer 💅</h1>
+      <h1>Front-End React Developer 👨‍💻</h1>
       <p>
-        I'm Simon (Szymon), a passionate Front-end React Developer hailing from
+        I'm Szymon, a passionate Front-end React Developer hailing from
         Częstochowa, Poland. 📍
       </p>
-      <LinksDiv>
-        <a
-          href="https://github.com/ReQs1"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FiGithub />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/szymon-całus-8899982b4/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <CiLinkedin />
-        </a>
-      </LinksDiv>
+      <IconLinks />
     </DescriptionDiv>
   );
 }
