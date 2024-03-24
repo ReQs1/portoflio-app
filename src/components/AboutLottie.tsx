@@ -7,7 +7,7 @@ function AboutLottie() {
 
   return (
     <Lottie
-      onPlay={() => LottieRef.current?.setSpeed(0.35)}
+      onDOMLoaded={() => LottieRef.current?.setSpeed(0.35)}
       initialSegment={[0, 113]}
       onComplete={() => LottieRef.current?.playSegments([22, 113], true)}
       loop={false}
