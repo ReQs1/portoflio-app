@@ -4,10 +4,10 @@ import { useRef } from "react";
 
 function AboutLottie() {
   const LottieRef = useRef<LottieRefCurrentProps>(null);
-  LottieRef.current?.setSpeed(0.35);
 
   return (
     <Lottie
+      onPlay={() => LottieRef.current?.setSpeed(0.35)}
       initialSegment={[0, 113]}
       onComplete={() => LottieRef.current?.playSegments([22, 113], true)}
       loop={false}
