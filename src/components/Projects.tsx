@@ -29,7 +29,6 @@ function Projects() {
       <h2>Projects</h2>
 
       <ProjectsDiv />
-      <p>Currently working on next.js project</p>
     </StyledSection>
   );
 }
