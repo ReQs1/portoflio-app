@@ -20,7 +20,7 @@ const ThemeButton = styled.button<ThemeButtonProps>`
   cursor: pointer;
   border-radius: 50%;
   border: none;
-  background: ${(props) => (props.$isDarkMode ? "black" : "white")};
+  background: ${(props) => (props.$isDarkMode ? "var(--section-bg)" : "white")};
   color: ${(props) => (props.$isDarkMode ? "white" : "black")};
 
   @media screen and (min-width: 768px) {

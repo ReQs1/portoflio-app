@@ -14,7 +14,8 @@ const SkillsDiv = styled.div`
     font-weight: 600;
     margin-bottom: 1rem;
     padding-bottom: 10px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--primary-text);
+    color: var(--primary-text);
   }
 
   @media screen and (min-width: 940px) {
@@ -30,7 +31,7 @@ const SkillsDiv = styled.div`
 
       padding-right: 1.5rem;
       margin-right: 2rem;
-      border-right: 2px solid black;
+      border-right: 2px solid var(--primary-text);
     }
   }
 `;

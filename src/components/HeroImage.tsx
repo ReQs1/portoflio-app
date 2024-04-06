@@ -4,7 +4,7 @@ const BlobDiv = styled.div`
   order: -1;
   max-width: 20rem;
   height: 16rem;
-  border: 4px solid black;
+  border: 4px solid var(--primary-text);
 
   border-radius: 32% 68% 50% 50% / 26% 73% 27% 74%;
   overflow: hidden;

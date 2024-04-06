@@ -58,6 +58,7 @@ const BurgerBtn = styled.button`
   border: none;
   width: 2.5rem;
   height: 2.5rem;
+  color: var(--primary-text);
 
   & svg {
     height: 100%;
