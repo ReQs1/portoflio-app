@@ -36,9 +36,9 @@ function AboutText() {
         science student. 💻
       </p>
       <p>
-        🌱 After a year of self-taught front-end development, I'm seeking new
-        challenges and opportunities where I can learn from more experienced
-        people.
+        🌱 After a year of self-learning about front-end development, I'm
+        seeking new challenges and opportunities where I can learn from more
+        experienced people.
       </p>
       <p>🚀 Feel free to DM me if you're interested in collaborating</p>
     </TextDiv>
