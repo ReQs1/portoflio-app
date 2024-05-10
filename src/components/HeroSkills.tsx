@@ -40,7 +40,6 @@ const SkillUl = styled.ul`
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  justify-content: center;
   align-items: center;
   padding: 1rem 0;
   list-style: none;
@@ -53,6 +52,10 @@ const SkillUl = styled.ul`
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     transition: color 0.3s ease;
+  }
+
+  @media screen and (max-width: 940px) {
+    justify-content: center;
   }
 `;
 
@@ -68,6 +71,7 @@ const skills = [
   "Styled Components",
   "Redux",
   "Framer Motion",
+  "PostgreSQL",
 ];
 
 const container = {

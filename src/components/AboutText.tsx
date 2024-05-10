@@ -32,15 +32,15 @@ function AboutText() {
   return (
     <TextDiv>
       <p>
-        👋 Hi there! I'm Szymon, a passionate learner on a mission to master
-        React. 💻
+        👋 Hi there! I'm Szymon, self-taught front-end developer & computer
+        science student. 💻
       </p>
       <p>
-        🌱 With a year of dedicated learning, I'm focused on becoming a skilled
-        React developer. I thrive on challenges and am eager to contribute to
-        innovative projects.
+        🌱 After a year of self-taught front-end development, I'm seeking new
+        challenges and opportunities where I can learn from more experienced
+        people.
       </p>
-      <p>Let's chat, team up, and bring some awesome ideas to life! 🚀</p>
+      <p>🚀 Feel free to DM me if you're interested in collaborating</p>
     </TextDiv>
   );
 }

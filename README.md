@@ -2,7 +2,7 @@
 
 Live preview: [here](https://portoflio-app.vercel.app)
 
-I'm a passionate learner on a mission to master React. With a year of dedicated learning, I'm focused on becoming a skilled React developer. I thrive on challenges and am eager to contribute to innovative projects.
+Self-taught front-end developer & CS student at Jan Dlugosz University in Czestochowa.
 
 ## My Skills 🚀
 
@@ -11,16 +11,15 @@ I'm a passionate learner on a mission to master React. With a year of dedicated 
 - TypeScript
 - React
 - Git & GitHub
+- PostgreSQL
 
 ### Currently Learning/Want to learn
+
 - Next.js
 - Docker
-- PostgreSQL
-- backend (?)
 
 ## Projects 📚
 
 - Tv Show
-- Currently working on Next.js project
 
 Let's connect, collaborate, and code together!
