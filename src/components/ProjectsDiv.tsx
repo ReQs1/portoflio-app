@@ -18,7 +18,7 @@ function ProjectsDiv() {
     <StyledDiv>
       <ProjectBox
         Title="Tv Show"
-        ImgSrc="./TvShow_Preview.png"
+        ImgSrc="/TvShow_Preview.png"
         TechUsed={["React", "TypeScript", "Tailwind"]}
         Link="https://tv-show-five.vercel.app/"
       />
