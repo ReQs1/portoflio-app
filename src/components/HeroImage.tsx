@@ -28,7 +28,7 @@ const BlobDiv = styled.div`
 function HeroImage() {
   return (
     <BlobDiv>
-      <img src="./HeroImage.jpg" alt="personal img" loading="lazy" />
+      <img src="/HeroImage.jpg" alt="personal img" loading="lazy" />
     </BlobDiv>
   );
 }
