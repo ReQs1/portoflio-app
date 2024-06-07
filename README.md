@@ -12,11 +12,7 @@ Self-taught front-end developer & CS student at Jan Dlugosz University in Czesto
 - React
 - Git & GitHub
 - PostgreSQL
-
-### Currently Learning/Want to learn
-
 - Next.js
-- Docker
 
 ## Projects 📚
 
