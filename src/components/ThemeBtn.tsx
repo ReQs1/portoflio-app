@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
-import { useDarkMode } from "../context/DarkMoveContext";
+import { useDarkMode } from "../context/DarkModeContext";
 
 type ThemeButtonProps = {
   $isDarkMode: boolean;
