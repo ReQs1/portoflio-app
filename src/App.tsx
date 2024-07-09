@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ThemeBtn from "./components/ThemeBtn";
-import DarkModeProvider from "./context/DarkMoveContext";
+import DarkModeProvider from "./context/DarkModeContext";
 
 function App() {
   return (
