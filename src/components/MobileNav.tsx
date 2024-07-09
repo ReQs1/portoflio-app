@@ -55,6 +55,7 @@ const CloseBtn = styled.button`
   border: none;
   width: 2.5rem;
   height: 2.5rem;
+  color: var(--primary-text);
 
   cursor: pointer;
 
