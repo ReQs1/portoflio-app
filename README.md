@@ -10,12 +10,7 @@ Self-taught front-end developer & CS student at Jan Dlugosz University in Czesto
 - JavaScript
 - TypeScript
 - React
+- Next.js
 - Git & GitHub
 - PostgreSQL
-- Next.js
-
-## Projects 📚
-
-- Tv Show
-
-Let's connect, collaborate, and code together!
+- 
