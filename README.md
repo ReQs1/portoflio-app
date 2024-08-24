@@ -13,4 +13,3 @@ Self-taught front-end developer & CS student at Jan Dlugosz University in Czesto
 - Next.js
 - Git & GitHub
 - PostgreSQL
-- 
