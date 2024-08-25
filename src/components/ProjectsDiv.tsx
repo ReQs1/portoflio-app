@@ -22,6 +22,18 @@ function ProjectsDiv() {
         TechUsed={["React", "TypeScript", "Tailwind"]}
         Link="https://tv-show-five.vercel.app/"
       />
+      <ProjectBox
+        Title="NextNotepad"
+        ImgSrc="/NextNotepad_Preview.png"
+        TechUsed={[
+          "Next.js",
+          "Typescript",
+          "Tailwind",
+          "Supabase",
+          "DrizzleORM",
+        ]}
+        Link="https://next-notepad.vercel.app"
+      />
     </StyledDiv>
   );
 }

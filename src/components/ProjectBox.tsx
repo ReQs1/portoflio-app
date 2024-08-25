@@ -42,6 +42,8 @@ const InfoDiv = styled.div`
     list-style: none;
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
 
     & li {
       font-weight: 500;
@@ -58,7 +60,7 @@ function ProjectBox({ Title, ImgSrc, TechUsed, Link }: Props) {
       <InfoDiv>
         <h3>{Title}</h3>
         <ul>
-          {TechUsed?.map((tech, i) => (
+          {TechUsed.map((tech, i) => (
             <li key={i}>{tech}</li>
           ))}
         </ul>
