@@ -99,23 +99,26 @@ const MotionSkillUl = motion(SkillUl);
 
 function HeroSkills() {
   return (
-    <SkillsDiv>
-      <h3>My Skills</h3>
-      <MotionSkillUl
-        variants={container}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{
-          once: true,
-        }}
-      >
-        {skills.map((skill, index) => (
-          <motion.li key={index} variants={item}>
-            {skill}
-          </motion.li>
-        ))}
-      </MotionSkillUl>
-    </SkillsDiv>
+    <>
+      <SkillsDiv>
+        <h3>My Skills</h3>
+        <MotionSkillUl
+          variants={container}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{
+            once: true,
+          }}
+        >
+          {skills.map((skill, index) => (
+            <motion.li key={index} variants={item}>
+              {skill}
+            </motion.li>
+          ))}
+        </MotionSkillUl>
+      </SkillsDiv>
+      <p>Currently trying out Angular.js</p>
+    </>
   );
 }
 
