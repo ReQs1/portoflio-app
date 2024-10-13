@@ -1,12 +1,11 @@
-import GlobalStyle from "./styles/globalStyles";
-import NavBar from "./components/NavBar";
-import Hero from "./components/Hero";
 import About from "./components/About";
-import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import NavBar from "./components/NavBar";
+import Projects from "./components/Projects";
 import ThemeBtn from "./components/ThemeBtn";
 import DarkModeProvider from "./context/DarkModeContext";
+import GlobalStyle from "./styles/globalStyles";
 
 function App() {
   return (
@@ -23,8 +22,6 @@ function App() {
           <Projects />
           <Contact />
         </main>
-
-        <Footer />
       </DarkModeProvider>
     </>
   );

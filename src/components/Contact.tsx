@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import ContactDiv from "./ContactDiv";
 import { MdOutlineMail } from "react-icons/md";
-import { FaDiscord } from "react-icons/fa";
+// import { FaDiscord } from "react-icons/fa";
 
 const StyledSection = styled.section`
   display: flex;
@@ -45,11 +45,11 @@ function Contact() {
           title="Email"
           data="sz.calus@gmail.com"
         />
-        <ContactDiv
+        {/* <ContactDiv
           icon={<FaDiscord size={36} title="Discord icon" />}
           title="Discord"
           data="req___"
-        />
+        /> */}
       </ContactOptions>
     </StyledSection>
   );
