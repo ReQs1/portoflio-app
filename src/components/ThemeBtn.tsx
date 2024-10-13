@@ -33,7 +33,11 @@ function ThemeBtn() {
   const { isDarkMode, toggleDarkMode } = useDarkMode();
 
   return (
-    <ThemeButton onClick={toggleDarkMode} $isDarkMode={isDarkMode}>
+    <ThemeButton
+      onClick={toggleDarkMode}
+      $isDarkMode={isDarkMode}
+      aria-label="toggle dark-mode"
+    >
       {isDarkMode ? (
         <MdOutlineLightMode size={26} />
       ) : (
