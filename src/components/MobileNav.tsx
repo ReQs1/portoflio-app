@@ -83,7 +83,10 @@ function MobileNav({ setIsOpen }: Props) {
         duration: 0.3,
       }}
     >
-      <CloseBtn onClick={() => setIsOpen(false)}>
+      <CloseBtn
+        onClick={() => setIsOpen(false)}
+        aria-label="close mobile navbar"
+      >
         <AiOutlineClose />
       </CloseBtn>
 

@@ -86,7 +86,10 @@ function NavBar() {
           ))}
         </StyledUl>
 
-        <BurgerBtn onClick={() => setIsOpen((curr) => !curr)}>
+        <BurgerBtn
+          onClick={() => setIsOpen((curr) => !curr)}
+          aria-label="open mobile navbar"
+        >
           <LuAlignJustify />
         </BurgerBtn>
       </StyledNav>

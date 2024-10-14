@@ -17,7 +17,7 @@ function ContactDiv({ icon, title, data }: Props) {
     <ParentDiv>
       {icon}
       <div>
-        <h4>{title}</h4>
+        <h3>{title}</h3>
         <p>{data}</p>
       </div>
     </ParentDiv>
