@@ -59,10 +59,6 @@ const SkillUl = styled.ul`
   }
 `;
 
-const AngularParagraph = styled.p`
-  color: var(--primary-text);
-`;
-
 const skills = [
   "HTML",
   "CSS",
@@ -121,7 +117,6 @@ function HeroSkills() {
           ))}
         </MotionSkillUl>
       </SkillsDiv>
-      <AngularParagraph>Currently trying out Angular.js</AngularParagraph>
     </>
   );
 }
