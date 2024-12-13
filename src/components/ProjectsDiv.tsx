@@ -20,7 +20,7 @@ function ProjectsDiv() {
         Title="Tv Show"
         ImgSrc="/TvShow_Preview.png"
         TechUsed={["React", "TypeScript", "Tailwind"]}
-        Link="https://tv-show-five.vercel.app/"
+        Link="https://github.com/ReQs1/tv-show"
       />
       <ProjectBox
         Title="NextNotepad"
@@ -32,7 +32,7 @@ function ProjectsDiv() {
           "Supabase",
           "DrizzleORM",
         ]}
-        Link="https://next-notepad.vercel.app"
+        Link="https://github.com/ReQs1/NextNotepad"
       />
     </StyledDiv>
   );
